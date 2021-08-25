@@ -36,3 +36,42 @@
     transform: rotate(360deg);
   }
 }
+
+.Menu ul li{
+  list-style: none;
+  display: inline;
+  padding: 5px;
+}
+
+.InputRegister {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+#DataApi {
+  align-content: flex-start;
+}
+
+.TabelData {
+  text-align: justify;
+  border-collapse: collapse;
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.TabelData thead {
+  background-color: slateblue;
+  text-align: center;
+}
+
+.TabelData tr th {
+  border: 1px solid slategray;
+  padding: 8px;
+}
+
+.TabelData tr td {
+  border: 1px solid slategray;
+  padding: 8px;
+}
