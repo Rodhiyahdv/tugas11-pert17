@@ -1,9 +1,12 @@
 import React from "react";
+import ReactAsync from "./ReactAsync";
+
 
 const HomePage = () => {
     return (
         <div>
-            <h1>Halaman Home</h1>
+            <h2>Halaman Home</h2>
+            <ReactAsync/>
         </div>
     )
 }

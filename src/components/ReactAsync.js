@@ -15,7 +15,7 @@ const ReactAsync = () => {
 
     return (
         <div>
-            <h1>React Async Star Wars Films</h1>
+            <h3>React Async Star Wars Films</h3>
             <table className="TabelData">
                 <thead>
                 <tr>

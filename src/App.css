@@ -37,10 +37,9 @@
   }
 }
 
-.Menu ul li{
-  list-style: none;
-  display: inline;
-  padding: 5px;
+.Menu {
+  display: flex;
+  justify-content: center;
 }
 
 .InputRegister {
