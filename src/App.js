@@ -9,6 +9,7 @@ import LoginPage from './components/LoginPage';
 
 function App() {
   return (
+    <>
     <div className="App">
       <div className="Menu">
         {/* <Link to="/ReactAsync" style={{textDecoration: "none", color: "black"}}>Async</Link> */}
@@ -35,10 +36,12 @@ function App() {
           </Route>
         </Switch>
       </main>
+    </div>
       <footer>
         Copyright &copy; 2021 - Rodhiyah Desviana
       </footer>
-    </div>
+    
+    </>
   );
 }
 
