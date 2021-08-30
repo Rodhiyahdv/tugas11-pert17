@@ -1,14 +1,14 @@
 import React, {useState,useEffect} from "react";
 
 const ReactAsync = () => {
-    const [pikachu, setPikachu] = useState([]);
+    const [starWars,setStarWars] = useState([]);
     
     useEffect(() => {
         const fetchData = async () => {
             const response = await fetch("https://swapi.dev/api/films/?format=json");
             const data = await response.json();
             console.log (data.results);
-            setPikachu(data.results);
+            setStarWars(data.results);
         };
         fetchData();
     }, [])
@@ -28,7 +28,7 @@ const ReactAsync = () => {
                 </thead>
                 <tbody>
             
-            {pikachu.map((item,index) => (
+            {starWars.map((item,index) => (
                 <tr key={index}>
                     <td>{item.title}</td>
                     <td>{item.director}</td>
